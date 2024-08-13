@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1560px) and (min-width: 1000px) {
+ 
+}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {
+    .hero_section .container .row {
+        display: block;
+    }
+    .hero_col_profile img {
+        width: 100%;
+    }
+    .tag_box_areas.top_right {
+        position: absolute;
+        right: -24px;
+        top: 50px;
+        width: 140px;
+        height: 74px;
+    }
+    .tag_box_areas.left_bottom {
+        position: absolute;
+        bottom: 240px;
+        left: -24px;
+        width: 140px;
+    }
+    .box_cols.top_pos h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .box_cols.top_pos p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .tag_box_areas.left_bottom .box_cols h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .tag_box_areas.left_bottom .box_cols p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .row_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        margin: 2rem 0;
+        row-gap: 2rem;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .row.br_gurd {
+        display: block;
+    }
+    
+    .run_col_profile img {
+        width: 100%;
+    }
+    
+    .row.br_gurd .column_half:first-child {
+        margin-bottom: 30px;
+    }
+    
+    .run_contents h3 {
+        font-size: 30px;
+    }
+    
+    .run_btn button {
+        width: 100%;
+    }
+    .bm_a_calculater_chart .row {
+        display: block;
+    }
+    
+    .chart_table {
+        margin-bottom: 40px;
+    }
+    
+    .input_col input {
+        width: 90%;
+    }
+    
+    .custom_input_col.half_col {
+        width: 47%;
+    }
+    
+    .row_three_grid {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    
+    footer .row {
+        display: block;
+        width: 100%;
+    }
+    
+    footer .column_half {
+        width: 100%;
+    }
+    
+    .footer_contents {
+        margin-bottom: 30px;
+    }
+    
+    .footer_main_col {
+        margin-bottom: 24px;
+    }
+    
+    .footer_content p br {
+        display: none;
+    }
+    
+    a.logo h4 {
+        font-size: 44px;
+    }
+    
+    .footer_heads h4 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    .footer_link ul li a {
+        font-size: 16px;
+    }
+    
+    .meet_our_team {
+        padding-bottom: 30px;
+    }
+    
+    .inner_header h2 {
+        font-size: 32px;
+    }
+    
+
+    
+    .inner_text_cal_head h3 {
+        font-size: 32px;
+    }
+    
+    .blank_fill {
+        display: none;
+    }
+    
+    .hero_contents h1 {
+        font-size: 48px;
+    }
+    
+    .button_bodyas {
+        display: flex;
+        gap: 16px;
+    }
+    
+    nav {
+        display: none;
+    }
+}
