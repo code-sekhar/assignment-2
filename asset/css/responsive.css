@@ -1,5 +1,17 @@
 @media only screen and (max-width: 1560px) and (min-width: 1000px) {
- 
+    .chart_heading.onts_mr {
+        width: 80%;
+    }
+    
+    .contact_box {
+        width: 80%;
+    }
+    
+    .bm_a_calculater_chart .column_half:last-child {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
 }
 
 @media only screen and (max-width: 999px) and (min-width: 300px) {
@@ -127,7 +139,10 @@
         font-size: 32px;
     }
     
-
+    .button_bodyas button{
+        padding: 14px 20px;
+        font-size: 14px;
+    }
     
     .inner_text_cal_head h3 {
         font-size: 32px;
@@ -148,5 +163,18 @@
     
     nav {
         display: none;
+    }
+    a.humberGer {
+        color: #FFFFFF;
+        font-size: 30px;
+        display: flex;
+        text-decoration: none;
+    }
+    .row_grid_service {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    
+    .hero_section .column_half:first-child {
+        margin-bottom: 45px;
     }
 }

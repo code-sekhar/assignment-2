@@ -702,3 +702,136 @@ footer {
     letter-spacing: 0.3px;
     text-align: center;
 }
+a.humberGer {
+    display: none;
+}
+/*mobile menus*/
+.mobile_menu {
+    position: fixed;
+    background: #ffffff26;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    backdrop-filter: blur(25px);
+    padding: 80px 30px;
+}
+
+
+
+.mobile_menus ul {
+    list-style: none;
+}
+
+.mobile_menus ul li {
+    margin-bottom: 36px;
+}
+
+.mobile_menus ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+}
+a.closes {
+    text-decoration: none;
+    position: absolute;
+    right: 33px;
+    top: 40px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.mobile_menus {
+    margin-top: 24px;
+}
+.mobile_menu{
+    display: none;
+}
+/*service*/
+.row_grid_service {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin: 2rem 0;
+    row-gap: 2rem;
+}
+
+.service_card_s {
+    background: #222;
+    border-radius: 14px;
+    padding: 18px;
+    width: 84%;
+    margin: auto;
+}
+
+.inner_service_card {
+    padding: 50px 20px;
+    border: 1px dashed #e6533c;
+    border-radius: 12px;
+}
+
+.service_card_s {}
+
+.service_contentas h3 {
+    font-size: 28px;
+    font-family: 'Inter';
+    color: #e6533c;
+    margin-bottom: 14px;
+}
+
+.service_contentas p {
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #7f7f7f;
+}
+
+button.sr_btns {
+    font-family: 'Inter';
+    padding: 10px 20px;
+    border: 1px dashed #e6533c;
+    background: #222222;
+    border-radius: 100px;
+    color: #e6533c;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.service_contentas {
+    margin-bottom: 25px;
+}
+
+.card_icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #e6533c;
+}
+
+.service_section {
+    padding-top: 80px;
+}
+.service_card_s{
+    cursor: pointer;
+}
+.service_card_s:hover{
+    cursor: pointer;
+    background-color: #e6533c;
+    transition: 0.3s;
+}
+
+.service_card_s:hover .inner_service_card {
+    padding: 50px 20px;
+    border: 1px dashed #222;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.service_card_s:hover .inner_service_card button{
+    background-color: #fff;
+}
+.button_bodyas {
+    display: flex;
+    gap: 16px;
+}
+button.black_btns {
+    background-color: #121212;
+}
