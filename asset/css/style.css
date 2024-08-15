@@ -3,13 +3,13 @@
     font-family: 'Miama Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Miama Regular'), url('../font/Miama-Regular.woff') format('woff');
+    src: local('Miama Regular'), url('Miama-Regular.woff') format('woff');
     }
     @font-face {
         font-family: 'Miama';
         font-style: normal;
         font-weight: normal;
-        src: local('Miama'), url('../font/Miama.woff') format('woff');
+        src: local('Miama'), url('Miama.woff') format('woff');
         }
 *{
     margin: 0px;
