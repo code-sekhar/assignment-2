@@ -3,7 +3,6 @@
     font-family: 'Miama';
     font-style: normal;
     font-weight: 300;
-    src: local('Miama'), local('Miama'), url('../font/Miama.otf') format('otf');
     src: local('Miama'), local('Miama'), url('../font/Miama.ttf') format('ttf');
   }
 *{
